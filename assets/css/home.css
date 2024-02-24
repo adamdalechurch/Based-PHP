@@ -54,6 +54,18 @@
     background: transparent;
 }
 
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.hero {
+    max-width: 330px;
+    text-align: center;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 600px) {
     .page-header {

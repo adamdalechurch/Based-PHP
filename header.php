@@ -47,8 +47,11 @@ body {
 </head>
 <body>
 <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
+        <a class="navbar-brand" href="/" style="position:absolute;top:13px">
+            <img src="assets/image/logo.svg" alt="Logo" class="logo" width='80'>
+        </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>

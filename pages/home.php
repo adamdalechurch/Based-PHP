@@ -14,7 +14,7 @@
     width: calc(100% / 3 - 20px) !important; /* Adjust the division value based on the number of info boxes per row */
 }
 
-.row{
+.row {
     margin-top: 30px;
 }
 
@@ -29,9 +29,22 @@
         width: 100% !important;
     }
 }
+
 </style>
 <div class="parallax-background">
     <div class="container">
+        <div class="row">
+            <div class="hero-container">
+                <div class="hero">
+                    <img src="assets/image/hero.svg" alt="Logo" class="logo" width='330'>
+                    <p>
+                    BasedPHP is a simple, easy to use, and customizable 
+                    PHP framework.
+                    </p>
+                    <button class="download-button" >⇓ Download </button>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <?php
                 // echo card(
