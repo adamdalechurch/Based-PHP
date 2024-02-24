@@ -1,0 +1,158 @@
+.header {
+    flex-grow: 1;
+}
+
+.footer {
+    width: 100%;
+    max-width: 100%;
+    background-color: #014494;
+}
+
+.main-logo {
+    background: transparent;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: calc(100% / 3 - 20px) !important; /* Adjust the division value based on the number of cards per row */
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-media {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area, you can also use 'contain' based on your needs */
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #666;
+    padding: 0 16px 16px 16px;
+}
+
+.card-actions {
+    margin-top: 16px;
+    padding: 0 16px 16px 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+.info-box, .info-box-alt {
+    padding: 16px; /* Approximation of theme.spacing(2) */
+    margin-top: 8px; /* Approximation of theme.spacing(1) */
+    margin-bottom: 8px; /* Approximation of theme.spacing(1) */
+    margin-left: 8px; /* Approximation of theme.spacing(1) */
+    margin-right: 8px; /* Approximation of theme.spacing(1) */
+    border-radius: 5px;
+    font-size: 18px; /* Approximation of theme.spacing(2) */
+}
+
+.info-box {
+    background-color: #e0e0e0; /* Adjust this color to match theme.palette.grey.main */
+}
+
+.info-box-alt {
+    background-color: #c0c0c0; /* Adjust this color to match theme.palette.grey.secondary */
+}
+
+.title {
+    color: #000; /* Adjust this color to match theme.palette.black.main */
+    font-weight: 550;
+    font-size: 32px; /* Approximation of theme.spacing(4) */
+    margin-bottom: 16px; /* Space below the title */
+}
+
+.para {
+    color: #000; /* Adjust this color if needed */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.page-header {
+    font-size: 32px; /* Approximation of theme.spacing(4) */
+    font-weight: 550;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main{
+    min-height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
+}
+
+.separator2 {
+    height: 40px; /* theme.spacing(10) */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .title {
+        font-size: 24px; /* Approximation of theme.spacing(3) */
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: calc(100% / 2 - 20px) !important; /* Adjust the division value based on the number of cards per row */
+    }
+
+    .para {
+        font-size: 14px; /* Smaller font size on small screens */
+    }
+    .page-header {
+        font-size: 24px; /* Smaller font size on small screens */
+    }
+}
+.info-box-title {
+    text-align: center !important;
+}
+/* Responsive adjustments */
+/* @media (max-width: 600px) { */
+/* Media query for tablets: */
+@media (max-width: 768px) {
+    .info-box-title {
+        font-size: 24px; /* Smaller font size on small screens */
+    }
+
+
+    .para {
+        font-size: 14px; /* Smaller font size on small screens */
+    }
+
+.page-header {
+    font-size: 24px; /* Smaller font size on small screens */
+}   
+
+    .card {
+        width: calc(100% - 20px) !important; /* Adjust the division value based on the number of cards per row */
+    }
+}
+
+.social-media-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}

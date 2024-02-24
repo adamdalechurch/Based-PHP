@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .white-hyperlink {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .page-header {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+}
