@@ -5,9 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="HandheldFriendly" content="True">
-<meta name="keywords" content="Veteran Computer Solutions, computer repair services, computer repair, technology, IT support, small businesses, St Petersburg, Clearwater, Tampa Bay, IT consulting, cyber security">
-<link rel="canonical" href="https://veterancomputersolutions.com<?php echo $canonical ?>">
-<meta name="application-name" content="Veteran Computer Solutions">
+<meta name="application-name" content="BasedPHP">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,37 +34,13 @@
 }
 
 * {
-    font-family: 'Martel Sans', sans-serif !important;
+    font-family: 'consolas' !important;
 }
 
 body {
     margin: 0;
     overflow-x: hidden;
     width: 100%;
-}
-
-.grecaptcha-badge {
-    visibility: hidden;
-}
-
-.call-button {
-    background-color: #d32f2f;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 10px;
-    border-radius: 4px;
-}
-
-.call-button:hover {
-    background-color: #9a0007;
 }
 </style>
 </head>
@@ -101,15 +75,4 @@ body {
         </div>
     </div>
 </div>
-
-<script>
-function toggleMobileMenu() {
-    var x = document.getElementById("navbarNav");
-    if (x.className === "collapse navbar-collapse") {
-        x.className += " show";
-    } else {
-        x.className = "collapse navbar-collapse";
-    }
-}
-</script>
 <div class="main">
