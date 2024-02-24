@@ -4,7 +4,7 @@
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-4">
                 <!-- Bottom Menu -->
                 <div class="bottom-menu">
                     <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
@@ -12,15 +12,15 @@
                     <?php endforeach; ?>
                 </div>
             </div>
-            <div class="col-md-6" style='text-align:center'>
+            <!-- <div class="col-xs-4" style='text-align:center'>
                 <div class="policy-links">
                     <a href="#" class="white-hyperlink">Privacy Policy</a> / 
                     <a href="#" class="white-hyperlink">Terms of Service</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="copyright">
-        <!-- © <?php echo date('Y'); ?> BasedPHP -->
+         © <?php echo date('Y'); ?> BasedPHP
     </div>
 </div>

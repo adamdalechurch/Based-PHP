@@ -11,8 +11,13 @@
     font-family: 'Martel Sans', sans-serif !important;
 }
 
+
 body {
     margin: 0;
     overflow-x: hidden;
-    width: 100%;
+    width: 100%;    
+}
+
+a {
+    color:black;
 }

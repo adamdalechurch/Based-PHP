@@ -15,13 +15,14 @@
 <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico"> -->
 <title>Based PHP</title>
 
+<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+
 <link rel="stylesheet" href="assets/css/based.css">
 <link rel="stylesheet" href="assets/css/header.css">
 <link rel="stylesheet" href="assets/css/footer.css">
 <link rel="stylesheet" href="assets/css/layout.css">
 <link rel="stylesheet" href="assets/css/normalize.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
 
 <style>
 @font-face {
@@ -48,9 +49,6 @@ body {
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
         <div class="container-fluid">
-            <button class="navbar-toggler menu-button" onclick='toggleMobileMenu()' type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                &#9776;
-            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
