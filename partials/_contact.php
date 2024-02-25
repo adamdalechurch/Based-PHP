@@ -9,11 +9,10 @@
   width: 100%;
   margin-bottom: 10px;
 }
-
 </style>
 
 <div class="row">
-    <div id="Contact">
+    <div id="Contact" class="section">
         <div class="row">
             <div class="col-md-12">
                 <h2>Contact Us</h2>

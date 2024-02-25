@@ -7,7 +7,7 @@
 </style>
 
 <div class="row">
-    <div id="About">
+    <div id="About" class="section">
         <div class="row">
             <div class="col-md-12">
                 <h2>About Us</h2>

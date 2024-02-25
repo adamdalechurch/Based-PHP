@@ -34,12 +34,12 @@
 <div class="parallax-background">
     <div class="container">
         <div class="row">
-            <div class="hero-container">
+            <div class="section">
                 <div id="Home" class="hero">
                     <img src="assets/image/hero.svg" alt="Logo" class="logo" width='330'>
                     <p>
-                    BasedPHP is a simple, easy to use, and customizable 
-                    PHP framework.
+                        BasedPHP is a simple, easy to use, and customizable 
+                        PHP framework.
                     </p>
                     <button class="download-button" >⇓ Download </button>
                 </div>

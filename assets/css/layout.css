@@ -97,7 +97,7 @@
     text-align: center;
 }
 
-.main{
+.main {
     min-height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
 }
 
@@ -125,8 +125,16 @@
         font-size: 24px; /* Smaller font size on small screens */
     }
 }
+
 .info-box-title {
     text-align: center !important;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
 }
 /* Responsive adjustments */
 /* @media (max-width: 600px) { */
