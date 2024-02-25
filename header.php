@@ -10,9 +10,30 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="language" content="English">
+
+
 <!-- favicon is a png -->
-<!-- <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico"> -->
-<!-- <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico"> -->
+<link rel="icon" type="image/x-icon" href="assets/image/logo.svg">
+<link rel="shortcut icon" type="image/x-icon" href="assets/image/logo.svg">
+
+<!-- SEO stuff -->
+<meta name="description" content="BasedPHP is a simple, easy to use, and customizable PHP framework.">
+<meta name="keywords" content="BasedPHP, PHP, Framework, Based, PHP, Based PHP">
+<meta name="author" content="BasedPHP">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="7 days">
+<meta name="publisher" content="BasedPHP">
+<meta name="copyright" content="BasedPHP">
+<meta name="distribution" content="global">
+<meta name="rating" content="general">
+<meta name="url" content="https://basedphp.com">
+<meta name="identifier-URL" content="https://basedphp.com">
+<meta name="coverage" content="Worldwide">
+<meta name="rating" content="General">
+<meta name="revisit-after" content="7 days">
+<meta name="language" content="English">
+<meta name="robots" content="index, follow">
+
 <title>Based PHP</title>
 
 <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
