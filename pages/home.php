@@ -59,6 +59,7 @@
 
         <?php include 'partials/_about.php'; ?>
 
+        <?php include 'partials/_contact.php'; ?>
         <div class="row">
             <?php 
                 // infoBox(
