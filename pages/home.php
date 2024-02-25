@@ -56,9 +56,8 @@
                 // );
             ?>
         </div>
-        <div class="row">
-            <!-- <button class="schedule-button" onclick="location.href='/contact'">&#128197; Schedule an Appointment</button> -->
-         </div>
+
+        <?php include 'partials/_about.php'; ?>
 
         <div class="row">
             <?php 
