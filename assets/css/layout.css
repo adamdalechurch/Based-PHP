@@ -60,6 +60,7 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .info-box, .info-box-alt {
     padding: 16px; /* Approximation of theme.spacing(2) */
     margin-top: 8px; /* Approximation of theme.spacing(1) */
@@ -136,8 +137,8 @@
     justify-content: center;
     height: 60vh;
 }
+
 /* Responsive adjustments */
-/* @media (max-width: 600px) { */
 /* Media query for tablets: */
 @media (max-width: 768px) {
     .info-box-title {
