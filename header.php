@@ -10,11 +10,11 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="language" content="English">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
 
 <!-- favicon is a png -->
 <link rel="icon" type="image/x-icon" href="assets/image/logo.svg">
 <link rel="shortcut icon" type="image/x-icon" href="assets/image/logo.svg">
-
 <!-- SEO stuff -->
 <meta name="description" content="BasedPHP is a simple, easy to use, and customizable PHP framework.">
 <meta name="keywords" content="BasedPHP, PHP, Framework, Based, PHP, Based PHP">
