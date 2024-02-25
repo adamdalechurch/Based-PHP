@@ -1,5 +1,5 @@
 <style>
-.about-us {
+#About {
   text-align: center;
   max-width: 400px;
   margin: 0 auto;
@@ -7,7 +7,7 @@
 </style>
 
 <div class="row">
-    <div class="about-us">
+    <div id="About">
         <div class="row">
             <div class="col-md-12">
                 <h2>About Us</h2>

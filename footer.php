@@ -7,7 +7,13 @@
             <!-- Bottom Menu -->
             <div class="bottom-menu">
                 <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
-                    <a class="link" href="<?php echo $link['link']; ?>"><?php echo $link['title']; ?></a>
+                    <a 
+                        class="link"
+                        onclick="scrollUpToSection('<?php echo $link['title']; ?>')"
+                        href="<?php echo $link['link']; ?>"
+                    >
+                        <?php echo $link['title']; ?>
+                    </a>
                 <?php endforeach; ?>
             </div>
         </div>
@@ -22,3 +28,14 @@
          © <?php echo date('Y'); ?> BasedPHP
     </div>
 </div>
+<script>
+    function scrollUpToSection(section) {
+        // document.body.scrollTop = 0;
+        scrollToSection(section);
+    }
+
+    function scrollToSection(section) {
+        var element = document.getElementById(section);
+        element.scrollIntoView({behavior: "smooth"});
+    }
+</script>

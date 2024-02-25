@@ -1,7 +1,7 @@
 <?php
 $pages = [
     [
-        'link' => '/',
+        'link' => '#',
         'title' => 'Home',
         'showInMenu' => true
     ],
