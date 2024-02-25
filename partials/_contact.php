@@ -1,7 +1,7 @@
 <style>
 #Contact {
   text-align: center;
-  max-width: 400px;
+  max-width: 800px;
   margin: 0 auto;
 }
 

@@ -11,7 +11,6 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="language" content="English">
 
-
 <!-- favicon is a png -->
 <link rel="icon" type="image/x-icon" href="assets/image/logo.svg">
 <link rel="shortcut icon" type="image/x-icon" href="assets/image/logo.svg">
@@ -70,8 +69,8 @@ body {
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
-        <a class="navbar-brand" href="/" style="position:absolute;top:13px">
-            <img src="assets/image/logo.svg" alt="Logo" class="logo" width='80'>
+        <a class="navbar-brand" id="logo-container" href="/">
+            <img src="assets/image/logo.svg" alt="Logo" class="logo" width='120'>
         </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">

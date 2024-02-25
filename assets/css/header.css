@@ -9,3 +9,8 @@
     float: left;
     margin: 0 10px;
 }
+
+#logo-container{
+    position:absolute;
+    top:13px;
+}

@@ -100,6 +100,8 @@
 
 .main {
     min-height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 .separator2 {
@@ -122,6 +124,7 @@
     .para {
         font-size: 14px; /* Smaller font size on small screens */
     }
+
     .page-header {
         font-size: 24px; /* Smaller font size on small screens */
     }
@@ -138,29 +141,38 @@
     height: 60vh;
 }
 
+.social-media-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
 /* Responsive adjustments */
 /* Media query for tablets: */
 @media (max-width: 768px) {
+    .section {
+        height: 80vh;
+    }
+
     .info-box-title {
         font-size: 24px; /* Smaller font size on small screens */
     }
-
 
     .para {
         font-size: 14px; /* Smaller font size on small screens */
     }
 
-.page-header {
-    font-size: 24px; /* Smaller font size on small screens */
-}   
+    .page-header {
+        font-size: 24px; /* Smaller font size on small screens */
+    }   
 
     .card {
         width: calc(100% - 20px) !important; /* Adjust the division value based on the number of cards per row */
     }
 }
 
-.social-media-icon {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
+@media (max-width: 768px) {
+  .section {
+        height: 100vh;
+    }
 }
