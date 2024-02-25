@@ -1,9 +1,13 @@
-.bottom-menu > .link{
-    display: block;
-    text-align: center;
+.footer {
+    max-width: 400px;
+    margin: auto;
 }
 
-.copyright{
+.bottom-menu > .link {
+    display: block;
+}
+
+.copyright {
     text-align: center;
     margin-top: 20px;
     font-size: 12px;

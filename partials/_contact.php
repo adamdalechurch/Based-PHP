@@ -15,8 +15,7 @@
 <div class="row">
     <div id="contact">
         <div class="row">
-            <div class="col-md-6">
-               
+            <div class="col-md-12">
                 <h2>Contact Us</h2>
                 <form action="https://formspree.io/f/xnqoqzqz" method="POST">
                     <div class="mb-3">
