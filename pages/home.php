@@ -41,7 +41,9 @@
                         BasedPHP is a simple, easy to use, and customizable 
                         PHP framework.
                     </p>
-                    <button class="download-button" >⇓ Download </button>
+                    <a href="https://github.com/adamdalechurch/Based-PHP" target="_blank">
+                        <button class="download-button" >👉 Go To Github </button>
+                    </a>
                 </div>
             </div>
         </div>
