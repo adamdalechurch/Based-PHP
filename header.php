@@ -22,15 +22,15 @@
 <meta name="copyright" content="BasedPHP">
 <meta name="distribution" content="global">
 <meta name="rating" content="general">
-<meta name="url" content="https://basedphp.com">
-<meta name="identifier-URL" content="https://basedphp.com">
+<meta name="url" content="<?php echo $config['SITE_URL']; ?>">
+<meta name="identifier-URL" content="<?php echo $config['SITE_URL']; ?>">
 <meta name="coverage" content="Worldwide">
 <meta name="rating" content="General">
 <meta name="revisit-after" content="7 days">
 <meta name="language" content="English">
 <meta name="robots" content="index, follow">
 
-<title>Based PHP</title>
+<title><?php echo $config['SITE_NAME']; ?></title>
 
 <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
 

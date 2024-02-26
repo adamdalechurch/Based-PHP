@@ -18,6 +18,8 @@ $config = [
   'LANGUAGE' => 'English',
 
   'AUTHOR' => 'Adam Church',
+
+  'SITE_URL' => 'http://localhost:8000',
 ]
 
 ?>
