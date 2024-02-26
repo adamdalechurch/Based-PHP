@@ -1,0 +1,36 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore build artifacts
+/build/
+
+# Ignore IDE files
+/.idea/
+/.vscode/
+
+# Ignore logs
+/logs/
+
+# Ignore cache files
+/cache/
+
+# Ignore session files
+/sessions/
+
+# Ignore uploaded files
+/uploads/
+
+# Ignore configuration files
+/config.php
+
+# Ignore environment variables
+/.env
+
+# Ignore database files
+/database/
+
+# Ignore compiled templates
+/templates_c/
+
+# Ignore temporary files
+/tmp/
