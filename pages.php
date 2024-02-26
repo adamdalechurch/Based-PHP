@@ -1,17 +1,17 @@
 <?php
 $pages = [
     [
-        'link' => '#',
+        'link' => '#Hero',
         'title' => 'Home',
         'showInMenu' => true
     ],
     [
-        'link' => '#',
+        'link' => '#About',
         'title' => 'About',
         'showInMenu' => true
     ],
     [
-        'link' => '#',
+        'link' => '#Contact',
         'title' => 'Contact',
         'showInMenu' => true
     ]
