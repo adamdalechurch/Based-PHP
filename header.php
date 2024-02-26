@@ -1,27 +1,24 @@
 <?php include 'pages.php'; ?>
+<?php include 'config.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="HandheldFriendly" content="True">
-<meta name="application-name" content="BasedPHP">
+<meta name="application-name" content="<?php echo $config['SITE_NAME']; ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="language" content="English">
+<meta name="language" content="<?php echo $config['LANGUAGE']; ?>">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
-
 <!-- favicon is a png -->
-<link rel="icon" type="image/x-icon" href="assets/image/logo.svg">
-<link rel="shortcut icon" type="image/x-icon" href="assets/image/logo.svg">
+<link rel="icon" type="image/x-icon" href="<?php echo $config['FAVICON']; ?>">
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo $config['LOGO']; ?>">
 <!-- SEO stuff -->
-<meta name="description" content="BasedPHP is a simple, easy to use, and customizable PHP framework.">
-<meta name="keywords" content="BasedPHP, PHP, Framework, Based, PHP, Based PHP">
-<meta name="author" content="BasedPHP">
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="7 days">
-<meta name="publisher" content="BasedPHP">
+<meta name="description" content="<?php echo $config['SITE_DESCRIPTION']; ?>">
+<meta name="keywords" content="<?php echo $config['SITE_KEYWORDS']; ?>">
+=<meta name="publisher" content="BasedPHP">
 <meta name="copyright" content="BasedPHP">
 <meta name="distribution" content="global">
 <meta name="rating" content="general">

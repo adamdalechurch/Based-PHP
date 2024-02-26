@@ -25,7 +25,7 @@
         </div> -->
     </div>
     <div class="copyright">
-         © <?php echo date('Y'); ?> BasedPHP
+         © <?php echo date('Y'); ?> <?php echo $config['SITE_NAME']; ?>
     </div>
 </div>
 <script>
