@@ -30,10 +30,17 @@
 8. Go to the root directory and open `pages.php` in a text editor.
 9. Add a new array entry for the new page in the `$pages` array. For example:
 ```
-php
 [
     'link' => '/new-page',
     'title' => 'New Page Title',
     'showInMenu' => true // or false, depending on whether to show in the menu
 ],
-``
+```
+
+## Update the config.php File:
+8. Go to the root directory and open `config.php` in a text editor.
+9. Add a new array entry for the new page in the `$config` array. For example:
+```
+[
+    'SITE_NAME' => 'BASED_PHP'
+],
