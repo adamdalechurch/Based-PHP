@@ -91,7 +91,8 @@ body {
                         <li class="nav-item">
                             <a class="nav-link"
                                 onclick="scrollToSection('<?php echo $link['title']; ?>')"
-                                href="<?php echo $link['link']; ?>"><?php echo $link['title']; ?>
+                            >
+                                <?php echo $link['title']; ?>
                             </a>
                         </li>
                     <?php endforeach; ?>
