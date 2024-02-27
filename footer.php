@@ -21,14 +21,3 @@
          © <?php echo date('Y'); ?> <?php echo $config['SITE_NAME']; ?>. All rights reserved.
     </div>
 </div>
-<script>
-    function scrollUpToSection(section) {
-        document.body.scrollTop = 0;
-        scrollToSection(section);
-    }
-
-    function scrollToSection(section) {
-        var element = document.getElementById(section);
-        element.scrollIntoView({behavior: "smooth"});
-    }
-</script>

@@ -105,10 +105,10 @@ body {
 }
 
 .main {
-    height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
+    height: 65vh; /* Adjust the value based on your header and footer height */
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    width: 120vw;
+    width: 100vw;
     margin: 0 auto;
 }
 
