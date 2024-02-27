@@ -34,7 +34,7 @@
 <div class="container">
     <div class="section">
         <div id="Home" class="hero">
-            <img src="assets/image/hero.svg" alt="Logo" class="logo" width='330'>
+            <img src="assets/image/hero.svg" id="hero-image" alt="Logo" class="logo" width='330'>
             <p>
                 BasedPHP is a simple, easy to use, and customizable 
                 PHP framework.
@@ -50,5 +50,4 @@
     <?php include 'partials/_contact.php'; ?>
 
 </div>
-
 <?php include 'footer.php'; ?>

@@ -1,16 +1,16 @@
-#navbarNav{
+#navbarNav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#navbarNav li{
-    display:inline;
+#navbarNav li {
+    display: inline;
     float: left;
     margin: 0 10px;
 }
 
-#logo-container{
-    position:absolute;
-    top:13px;
+#logo-container {
+    position: absolute;
+    top: 13px;
 }

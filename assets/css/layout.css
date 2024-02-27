@@ -116,6 +116,11 @@ body {
     height: 40px; /* theme.spacing(10) */
 }
 
+.dark {
+    background-color: #000;
+    color: #fff !important;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .title {

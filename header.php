@@ -18,7 +18,7 @@
 <!-- SEO stuff -->
 <meta name="description" content="<?php echo $config['SITE_DESCRIPTION']; ?>">
 <meta name="keywords" content="<?php echo $config['SITE_KEYWORDS']; ?>">
-=<meta name="publisher" content="BasedPHP">
+<meta name="publisher" content="BasedPHP">
 <meta name="copyright" content="BasedPHP">
 <meta name="distribution" content="global">
 <meta name="rating" content="general">
@@ -40,6 +40,7 @@
 <link rel="stylesheet" href="assets/css/layout.css">
 <link rel="stylesheet" href="assets/css/normalize.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/vendor/ios-switch.css">
 
 <style>
 @font-face {
@@ -60,14 +61,29 @@ body {
     overflow-x: hidden;
     width: 100%;
 }
+
+.theme-switch-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
 </style>
 </head>
 <body>
+
+<div class="theme-switch-container">
+   <label class="ios7-switch">
+    <span id="current-theme">☀️</span>
+    <input type="checkbox" onclick="changeTheme()" checked>
+    <span></span>
+    </label>
+</div>
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
         <a class="navbar-brand" id="logo-container" href="/">
-            <img src="assets/image/logo.svg" alt="Logo" class="logo" width='120'>
+            <img id="navbar-logo" src="assets/image/logo.svg" alt="Logo" class="logo" width='120'>
         </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -97,3 +113,22 @@ body {
     </div>
 </div>
 <div class="main">
+
+<script>
+const themes = [  '☀️' , '🌙' ];
+let currentTheme = 0;
+
+function changeTheme() {
+    currentTheme = (currentTheme + 1) % 2;
+    document.getElementById('current-theme').innerText = themes[currentTheme];
+    document.body.classList.toggle('dark');
+    
+    if (currentTheme === 1) { 
+        document.getElementById('hero-image').src = 'assets/image/hero-white.svg';
+        document.getElementById('navbar-logo').src = 'assets/image/logo-white.svg';
+     } else {
+        document.getElementById('hero-image').src = 'assets/image/hero.svg';
+        document.getElementById('navbar-logo').src = 'assets/image/logo.svg';
+    }
+}
+</script>
