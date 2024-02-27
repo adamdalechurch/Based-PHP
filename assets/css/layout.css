@@ -1,5 +1,7 @@
 .header {
     flex-grow: 1;
+    display: fixed;
+    margin: 0 auto
 }
 
 .footer {
@@ -91,6 +93,10 @@
     font-size: 16px; /* Adjust font size as needed */
 }
 
+body {
+    overflow-y: hidden;
+}
+
 .page-header {
     font-size: 32px; /* Approximation of theme.spacing(4) */
     font-weight: 550;
@@ -99,8 +105,10 @@
 }
 
 .main {
-    min-height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
-    max-width: 95%;
+    height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    width: 120vw;
     margin: 0 auto;
 }
 
@@ -138,7 +146,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 500px;
     height: 60vh;
+    scroll-snap-align: start;
 }
 
 .social-media-icon {
