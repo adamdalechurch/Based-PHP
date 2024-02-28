@@ -454,36 +454,3 @@ html.unprefixed-boxshadow .ios7-switch:hover input:focus:checked + span {
         width: 300px;
     }
 }
-
-/* mobile */
-@media (max-width: 480px) {
-    * {
-        font-size: 12px;
-    }
-
-    .page-header {
-        font-size: 12px;
-    }
-
-    .info-box, .info-box-alt {
-        padding: 8px; /* Approximation of theme.spacing(1) */
-        margin-top: 4px; /* Approximation of theme.spacing(0.5) */
-        margin-bottom: 4px; /* Approximation of theme.spacing(0.5) */
-        margin-left: 4px; /* Approximation of theme.spacing(0.5) */
-        margin-right: 4px; /* Approximation of theme.spacing(0.5) */
-        border-radius: 5px;
-        font-size: 14px; /* Approximation of theme.spacing(1.75) */
-    }
-
-    .section {
-        height: 100vh;
-    }
-
-    .card {
-        width: calc(100% - 20px) !important; /* Adjust the division value based on the number of cards per row */
-    }
-
-    .theme-switch-container {
-        top: 200px;
-    }
-}
