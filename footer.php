@@ -9,6 +9,7 @@
 <script>
 const themes = [  '☀️' , '🌙' ];
 let currentTheme = 0;
+let mobileMenuOpen = false;
 
 function scrollToSection(section) {
     document.getElementById('navbarNavMobile').style.display = 'none';
@@ -30,24 +31,38 @@ function changeTheme() {
     }
 }
 
+function handleResize() {
+    if (window.innerWidth > 786) {
+        document.getElementById('navbarNavMobile').style.display = 'none';
+        mobileMenuOpen = false;
+    }
+}
+
 function toggleMobileMenu() {
     const navbarNavMobile = document.getElementById('navbarNavMobile');
     if (navbarNavMobile.style.display === 'block') {
         navbarNavMobile.style.display = 'none';
+        mobileMenuOpen = false;
     } else {
         navbarNavMobile.style.display = 'block';
+        mobileMenuOpen = true;
     }
 }
+
+// bind resize event:
+window.addEventListener('resize', handleResize);
+
+// Google Analytics:
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', '<?php echo $config['GA_TAG'] ?>');
 </script>
 
 
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $config['GA_TAG'] ?>"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', '<?php echo $config['GA_TAG'] ?>');
 </script>
