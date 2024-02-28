@@ -22,6 +22,10 @@ input, textarea, button {
     border-radius: inherit;
 }
 
+textarea {
+    border: 2px solid;
+}
+
 button {
     -webkit-appearance: unset;
     background: transparent;
