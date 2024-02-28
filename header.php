@@ -35,7 +35,7 @@
 <!-- normalize.css is performance drain -->
 <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
 
-<link rel="stylesheet" href="assets/css/based.min.css">
+<link rel="stylesheet" href="assets/css/based.css">
 <link rel="stylesheet" href="assets/css/home.css">
 
 <style>
