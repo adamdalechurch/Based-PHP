@@ -14,3 +14,26 @@
     position: absolute;
     top: 13px;
 }
+
+#navbarNavMobile {
+    display: none;
+    margin-top: 72px;
+}
+
+#navbarNavMobileBtn {
+    display: none;
+    position: absolute;
+    right: 28px;
+    top: 10px;
+}
+
+#navbarNavMobile {
+    display: none;
+}
+
+.theme-switch-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}

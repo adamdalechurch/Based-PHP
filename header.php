@@ -32,13 +32,12 @@
 
 <title><?php echo $config['SITE_NAME']; ?></title>
 
-<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
 
 <link rel="stylesheet" href="assets/css/based.css">
 <link rel="stylesheet" href="assets/css/header.css">
 <link rel="stylesheet" href="assets/css/footer.css">
 <link rel="stylesheet" href="assets/css/layout.css">
-<link rel="stylesheet" href="assets/css/normalize.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/vendor/ios-switch.css">
 
@@ -62,23 +61,11 @@ body {
     width: 100%;
 }
 
-.theme-switch-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
-}
 </style>
 </head>
 <body>
 
-<div class="theme-switch-container">
-   <label class="ios7-switch">
-    <span id="current-theme">☀️</span>
-    <input type="checkbox" onclick="changeTheme()" checked>
-    <span></span>
-    </label>
-</div>
+
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
@@ -86,17 +73,13 @@ body {
             <img id="navbar-logo" src="assets/image/logo.svg" alt="Logo" class="logo" width='120'>
         </a>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                onclick="scrollToSection('<?php echo $link['title']; ?>')"
-                            >
-                                <?php echo $link['title']; ?>
-                            </a>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
+               <?php include 'partials/_menu.php'; ?>
+            </div>
+            <button id="navbarNavMobileBtn" onclick="toggleMobileMenu()" type="button">
+                ☰
+            </button>
+            <div id="navbarNavMobile">
+                <?php include 'partials/_menu.php'; ?>
             </div>
         </div>
     </nav>
@@ -130,6 +113,15 @@ function changeTheme() {
      } else {
         document.getElementById('hero-image').src = 'assets/image/hero.svg';
         document.getElementById('navbar-logo').src = 'assets/image/logo.svg';
+    }
+}
+
+function toggleMobileMenu() {
+    const navbarNavMobile = document.getElementById('navbarNavMobile');
+    if (navbarNavMobile.style.display === 'block') {
+        navbarNavMobile.style.display = 'none';
+    } else {
+        navbarNavMobile.style.display = 'block';
     }
 }
 </script>

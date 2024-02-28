@@ -11,4 +11,20 @@
     .para {
         font-size: 16px;
     }
+
+    #navbarNav {
+        display: none;
+    }
+
+    #navbarNavMobileBtn {
+        display: block;
+    }
+
+    #navbarNavMobile {
+        display: none;
+    }
+
+    .theme-switch-container {
+        top:140px;
+    }
 }
