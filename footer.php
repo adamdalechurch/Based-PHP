@@ -7,19 +7,40 @@
 </div>
 
 <script>
+const themes = [  '☀️' , '🌙' ];
+let currentTheme = 0;
 
 function scrollToSection(section) {
-    toggleMobileMenu();
+    document.getElementById('navbarNavMobile').style.display = 'none';
     const element = document.getElementById(section);
     element.scrollIntoView({behavior: "smooth"});
 }
 
-function scrollUpToSection(section) {
-    const element = document.getElementById(section);
-    element.scrollIntoView({behavior: "smooth", block: "start"});
+function changeTheme() {
+    currentTheme = (currentTheme + 1) % 2;
+    document.getElementById('current-theme').innerText = themes[currentTheme];
+    document.body.classList.toggle('dark');
+    
+    if (currentTheme === 1) { 
+        document.getElementById('hero-image').src = 'assets/image/hero-white.svg';
+        document.getElementById('navbar-logo').src = 'assets/image/logo-white.svg';
+     } else {
+        document.getElementById('hero-image').src = 'assets/image/hero.svg';
+        document.getElementById('navbar-logo').src = 'assets/image/logo.svg';
+    }
 }
 
+function toggleMobileMenu() {
+    const navbarNavMobile = document.getElementById('navbarNavMobile');
+    if (navbarNavMobile.style.display === 'block') {
+        navbarNavMobile.style.display = 'none';
+    } else {
+        navbarNavMobile.style.display = 'block';
+    }
+}
 </script>
+
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $config['GA_TAG'] ?>"></script>
