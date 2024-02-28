@@ -8,6 +8,7 @@
             </span>
         </li>
     <?php endforeach; ?>
+</ul>
 <div class="theme-switch-container">
   <label class="ios7-switch">
     <span id="current-theme">☀️</span>
@@ -15,4 +16,3 @@
     <span></span>
   </label>
 </div>
-</ul>
