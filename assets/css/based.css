@@ -14,13 +14,12 @@
 }
 
 input, textarea, button {
-    max-width: 95%;
+    max-width: 85%;
     margin: 0 auto;
     color: inherit;
     font-family: inherit;
     font-size: inherit;
     border-radius: inherit;
-    padding: 10px;
 }
 
 button {
