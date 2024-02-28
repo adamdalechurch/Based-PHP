@@ -1,10 +1,15 @@
 RewriteEngine On
 
-# If the requested filename exists as a file (like images, CSS, JS, etc.), do not process further
-RewriteCond %{REQUEST_FILENAME} !-f
+# Redirect to PHP file if it exists in the /pages directory
+RewriteCond %{DOCUMENT_ROOT}/pages/$1.php -f
+RewriteRule ^(.+)$ pages/$1.php [L]
 
-# If the requested filename exists as a directory, do not process further
+# Serve the home.php file when the root is accessed
+RewriteRule ^$ pages/home.php [L]
+
+# Ensure that real files (e.g., images, CSS, JS) can be directly accessed
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Rewrite all other URLs to your PHP script
-RewriteRule ^(.*)$ index.php [QSA,L]
+# Handle 404 errors
+RewriteRule .? - [L,R=404]
