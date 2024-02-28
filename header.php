@@ -70,7 +70,7 @@ body {
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
         <a class="navbar-brand" id="logo-container" href="/">
-            <img id="navbar-logo" src="assets/image/logo.svg" alt="Logo" class="logo" width='120'>
+            <img id="navbar-logo" src="assets/image/logo.svg" alt="Logo" class="logo" width='210'>
         </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                <?php include 'partials/_menu.php'; ?>

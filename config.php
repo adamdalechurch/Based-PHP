@@ -3,8 +3,6 @@
 $env = parse_ini_file('.env');
 
 $config = [
-  // 'site_name' => 'BasedPHP',
-  // 'site_description' => 'BasedPHP is a PHP framework that is based on PHP.',
   'SITE_NAME' => 'BasedPHP',
 
   'SITE_DESCRIPTION' => 'BasedPHP is a PHP framework that is based on PHP.',
@@ -22,6 +20,7 @@ $config = [
   'AUTHOR' => 'Adam Church',
 
   'SITE_URL' => 'http://localhost:8000',
+
   'GA_TAG' => isset($env['GA_TAG']) ? $env['GA_TAG'] : '',
 ];
 
