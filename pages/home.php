@@ -1,6 +1,6 @@
-<?php include 'header.php'; ?>
-<?php include 'templates/card.php'; ?>
-<?php include 'templates/infobox.php'; ?>
+<?php include dirname( __FILE__, 2 ) . '/header.php'; ?>
+<?php include dirname( __FILE__, 2 ) . '/templates/card.php'; ?>
+<?php include dirname( __FILE__, 2 ) . '/templates/infobox.php'; ?>
 
 <link rel="stylesheet" href="assets/css/home.css">
 <style>
@@ -45,9 +45,9 @@
         </div>
     </div>
 
-    <?php include 'partials/_about.php'; ?>
+    <?php include  dirname( __FILE__, 2 ) . '/partials/_about.php'; ?>
 
-    <?php include 'partials/_contact.php'; ?>
+    <?php include dirname( __FILE__, 2 ) . '/partials/_contact.php'; ?>
 
 </div>
 <?php include 'footer.php'; ?>
