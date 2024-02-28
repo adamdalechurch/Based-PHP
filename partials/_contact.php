@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-12">
             <h2>Contact Us</h2>
-            <form action="https://formsubmit.co/adamdchurch92@gmail.com" method="POST">
+            <form action="https://formsubmit.co/e2f4659aa6f4224f94edb8d41f6063ff" method="POST">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control contact-input" id="name" name="name" required>
