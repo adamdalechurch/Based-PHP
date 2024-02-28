@@ -32,7 +32,8 @@
 
 <title><?php echo $config['SITE_NAME']; ?></title>
 
-<link rel="stylesheet" href="assets/css/normalize.css">
+<!-- normalize.css is performance drain -->
+<!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
 
 <link rel="stylesheet" href="assets/css/based.css">
 <link rel="stylesheet" href="assets/css/header.css">
@@ -40,6 +41,8 @@
 <link rel="stylesheet" href="assets/css/layout.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/vendor/ios-switch.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+<link rel="stylesheet" href="assets/css/home.css">
 
 <style>
 @font-face {

@@ -2,7 +2,6 @@
 <?php include dirname( __FILE__, 2 ) . '/templates/card.php'; ?>
 <?php include dirname( __FILE__, 2 ) . '/templates/infobox.php'; ?>
 
-<link rel="stylesheet" href="assets/css/home.css">
 <style>
 .card {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;

@@ -1,5 +1,4 @@
 </div> <!-- end of main -->
-<link rel="stylesheet" href="assets/css/footer.css">
 
 <div class="footer">
     <div class="copyright">
