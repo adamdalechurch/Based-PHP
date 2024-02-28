@@ -17,6 +17,7 @@ input, textarea, button {
     max-width: 85%;
     margin: 0 auto;
     color: inherit;
+    background-color: inherit;
     font-family: inherit;
     font-size: inherit;
     border-radius: inherit;

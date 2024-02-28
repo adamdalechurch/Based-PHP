@@ -1,5 +1,9 @@
 @media (max-width: 786px) {
-    *{
+    #logo-container {
+        top: 7px;
+    }
+
+    * {
         font-size: 28px;
     }
 
