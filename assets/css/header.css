@@ -1,12 +1,12 @@
 .navbar-nav {
-    background-color: #fff;
+    background-color: transparent;
 }
 
 #navbarNav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: inherit;
+    background-color: transparent;
 }
 
 #navbarNav li {
@@ -23,7 +23,7 @@
 #navbarNavMobile {
     display: none;
     margin-top: 72px;
-    background-color: inherit;
+    background-color: transparent;
 }
 
 #navbarNavMobileBtn {

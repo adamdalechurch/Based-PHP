@@ -1,14 +1,10 @@
-.footer {
-    max-width: 800px;
-    margin: auto;
-}
-
 .bottom-menu > .link {
     display: block;
 }
 
 .copyright {
     text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

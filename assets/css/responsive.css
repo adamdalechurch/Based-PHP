@@ -1,4 +1,8 @@
 @media (max-width: 600px) {
+    *{
+        font-size: 28px;
+    }
+
     .white-hyperlink {
         padding: 10px;
         border-radius: 10px;
@@ -22,5 +26,9 @@
 
     .theme-switch-container {
         top:140px;
+    }
+
+    #hero-image {
+        width: 300px;
     }
 }

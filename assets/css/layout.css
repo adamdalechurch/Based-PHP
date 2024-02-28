@@ -105,9 +105,11 @@ body {
 }
 
 .main {
-    height: 65vh; /* Adjust the value based on your header and footer height */
+    height: 85vh; /* Adjust the value based on your header and footer height */
     overflow-y: auto;
     scroll-snap-type: y mandatory;
+    scroll-padding-top: 28px;
+    scroll-padding-bottom: 28px;
     width: 100vw;
     margin: 0 auto;
 }
@@ -158,8 +160,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 500px;
-    height: 60vh;
-    scroll-snap-align: start;
+    height: 75vh;
+    scroll-snap-align: center;
     width: 99vw;
     margin: 0 auto;
     overflow-x: clip;
@@ -176,7 +178,7 @@ body {
 /* Media query for tablets: */
 @media (max-width: 768px) {
     .section {
-        height: 80vh;
+        height: 90vh;
     }
 
     .info-box-title {

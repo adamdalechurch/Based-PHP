@@ -9,12 +9,18 @@
 
 * {
     font-family: 'Martel Sans', sans-serif !important;
-    font-size: 28px;
+    font-size: 48px;
+    border-radius: 5px;
 }
 
 input, textarea, button {
     max-width: 95%;
     margin: 0 auto;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: inherit;
+    padding: 10px;
 }
 
 button {
