@@ -1,11 +1,11 @@
 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
         <li class="nav-item">
-            <a class="nav-link"
+            <span class="nav-link"
                 onclick="scrollToSection('<?php echo $link['title']; ?>')"
             >
                 <?php echo $link['title']; ?>
-            </a>
+            </span>
         </li>
     <?php endforeach; ?>
 <div class="theme-switch-container">
