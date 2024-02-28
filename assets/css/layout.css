@@ -147,6 +147,12 @@ body {
     text-align: center !important;
 }
 
+.container {
+    width: 99%;
+    margin: 0 auto;
+    overflow-x: clip;
+}
+
 .section {
     display: flex;
     align-items: center;
@@ -154,6 +160,10 @@ body {
     min-height: 500px;
     height: 60vh;
     scroll-snap-align: start;
+    width: 99vw;
+    margin: 0 auto;
+    overflow-x: clip;
+    padding: 1%;
 }
 
 .social-media-icon {

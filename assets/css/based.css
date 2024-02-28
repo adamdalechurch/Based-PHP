@@ -12,6 +12,16 @@
     font-size: 28px;
 }
 
+input, textarea, button {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+button {
+    -webkit-appearance: unset;
+    background: transparent;
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
