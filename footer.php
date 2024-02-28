@@ -6,6 +6,7 @@
     </div>
 </div>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $config['GA_TAG'] ?>"></script>
 <script>
 const themes = [  '☀️' , '🌙' ];
 let currentTheme = 0;
@@ -58,11 +59,4 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
 gtag('config', '<?php echo $config['GA_TAG'] ?>');
-</script>
-
-
-
-<!-- Google tag (gtag.js) -->
-<script>
-
 </script>
